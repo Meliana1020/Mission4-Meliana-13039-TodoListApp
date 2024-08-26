@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do List</h1>
+            <p class="subtitle">To do list application intended for employees so they can manage their tasks in a planned and systematic manner</p>
+            <div class="profile">
+                <img src="profile.png" alt="Profile Icon">
+                <span>Meliana-FullStack Developer</span>
+            </div>
+        </header>
+        <div class="task-input">
+            <input type="text" id="new-task" placeholder="Add a new task...">
+            <select id="task-priority">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+            <input type="date" id="task-date">
+            <button id="add-task">Add</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Level Priority</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="task-list">
+
+            </tbody>
+        </table>
+        <div class="actions">
+            <button id="clear-all">Clear All</button>
+        </div>
+        <footer>
+            <p>&copy; 2024 To do List App by meliana. All Rights Reserved.</p>
+        </footer>        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
