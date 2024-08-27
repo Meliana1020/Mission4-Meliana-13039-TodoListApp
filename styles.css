@@ -77,7 +77,7 @@ header {
     border: none;
     border-radius: 5px;
     width: calc(100% / 4 - 10px);
-    min-width: 60px; /* Ukuran minimum agar tetap responsif */
+    min-width: 60px;
     box-sizing: border-box;
 }
 
@@ -114,6 +114,10 @@ button#clear-all {
     color: white;
 }
 
+button#show-done {
+    background-color: #ffbb00;
+    color: white;
+}
 footer {
     text-align: center;
     margin-top: 20px;

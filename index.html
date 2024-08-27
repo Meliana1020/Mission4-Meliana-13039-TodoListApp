@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" 
+    rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>To-Do List</h1>
-            <p class="subtitle">To do list application intended for employees so they can manage their tasks in a planned and systematic manner</p>
+            <p class="subtitle">To do list application intended for employees so they can manage 
+                their tasks in a planned and systematic manner</p>
             <div class="profile">
                 <img src="profile.png" alt="Profile Icon">
                 <span>Meliana-FullStack Developer</span>
@@ -37,11 +39,26 @@
                 </tr>
             </thead>
             <tbody id="task-list">
-
             </tbody>
         </table>
+        <div id="done-tasks" style="display: none;">
+            <h2>Done Tasks</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Level Priority</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody id="done-task-list">
+                    <!-- Done tasks will be appended here -->
+                </tbody>
+            </table>
+        </div>        
         <div class="actions">
             <button id="clear-all">Clear All</button>
+            <button id="show-done">Show Done</button>
         </div>
         <footer>
             <p>&copy; 2024 To do List App by meliana. All Rights Reserved.</p>
