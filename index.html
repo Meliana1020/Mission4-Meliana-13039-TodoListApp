@@ -55,10 +55,28 @@
                     <!-- Done tasks will be appended here -->
                 </tbody>
             </table>
-        </div>        
+        </div>
+        <!-- Daftar tugas overdue -->
+    <div id="overdue-tasks" style="display: none;">
+        <h2>Overdue Tasks</h2>
+        <table id="overdue-task-list">
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Level Priority</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tugas overdue akan ditambahkan di sini -->
+            </tbody>
+        </table>
+    </div>
+<!-- Tombol untuk menampilkan daftar overdue -->
         <div class="actions">
             <button id="clear-all">Clear All</button>
             <button id="show-done">Show Done</button>
+            <button id="show-overdue">Show Overdue</button>
         </div>
         <footer>
             <p>&copy; 2024 To do List App by meliana. All Rights Reserved.</p>

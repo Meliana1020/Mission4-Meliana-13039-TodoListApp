@@ -118,6 +118,21 @@ button#show-done {
     background-color: #ffbb00;
     color: white;
 }
+/* Warna untuk tugas yang overdue */
+.overdue {
+    color: red; /* Warna merah untuk teks tugas overdue */
+}
+
+/* Warna teks yang dicentang sebagai done */
+.task-done {
+    color: #a0a0a0; /* Warna abu-abu untuk teks yang sudah selesai */
+    text-decoration: line-through; /* Garis coret */
+}
+
+/* Warna teks normal */
+.task-default {
+    color: #e0e0e0; /* Warna normal untuk teks tugas yang belum overdue atau belum selesai */
+}
 footer {
     text-align: center;
     margin-top: 20px;
