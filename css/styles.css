@@ -26,13 +26,14 @@ body {
 }
 
 header {
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 .subtitle {
     font-size: 14px;
     color: #a0a0a0;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
+    text-align: center;
 }
 
 .profile {
@@ -70,7 +71,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     box-sizing: border-box;
 }
 
@@ -86,7 +87,7 @@ header {
 .task-input select,
 .task-input input[type="date"],
 .task-input button {
-    padding: 10px;
+    padding: 6px;
     border: none;
     border-radius: 5px;
     width: calc(100% / 4 - 10px);
@@ -100,6 +101,7 @@ header {
     cursor: pointer;
     flex-grow: 1;
     min-width: 60px;
+    min-height: 40px;
 }
 
 table {

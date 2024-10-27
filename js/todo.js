@@ -194,7 +194,7 @@ if (loggedInUser && loggedInUser.username) {
 // Fungsi logout
 logoutButton.addEventListener('click', function() {
     localStorage.removeItem('isLoggedIn'); // Hapus status login
-    window.location.href = 'file:///E:/BOOTCAMP%20FSD%20(Harisenin)/Mission/Mission4-Meliana-13039//index.html'; // Arahkan kembali ke halaman login
+    window.location.href = '../index.html'; // Arahkan kembali ke halaman login
 });
 
 
