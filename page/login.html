@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login To Do List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/auth.css">
+</head>
+<body>
+    <!-- Form Login -->
+    <div class="container">
+        <h2>Login</h2>
+        <p class="subtitle">Please log in to access your to-do list</p>
+        <form class="form" id="loginForm"> <!-- Tambahkan id pada form -->
+            <label for="loginEmail">Email</label>
+            <input type="text" id="loginEmail" name="loginEmail" placeholder="Enter your email" required />
+  
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" name="loginPassword" placeholder="Enter your password" required />
+  
+            <button type="submit" class="btn" id="login-btn">Login</button> <!-- Hapus anchor dari tombol -->
+            <p class="link">Don’t have an account? <a href="file:///E:/BOOTCAMP%20FSD%20(Harisenin)/Mission/Mission4-Meliana-13039/index.html" id="show-register"> Register here</a></p>
+        </form>
+        <div id="errorMessage" style="color: red;"></div> <!-- Tempat untuk menampilkan pesan error -->
+    </div>
+  
+    <script src="../js/login.js"></script>
+</body>
+</html>

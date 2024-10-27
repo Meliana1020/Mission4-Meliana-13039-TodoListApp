@@ -36,18 +36,32 @@ header {
 }
 
 .profile {
-    padding: 10px 20px;
     display: flex;
-    align-items: left;
-    justify-content: left;
-    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
 }
 
-.profile img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    flex-shrink: 0;
+#greeting {
+    padding-left: 15px; 
+    font-size: 16px; 
+    color: #e0e0e0; 
+}
+
+#logout-button {
+    padding: 8px 16px; 
+    background-color: grey; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 14px; 
+    transition: background-color 0.3s ease; 
+}
+
+#logout-button:hover {
+    background-color: darkgrey; 
 }
 
 .task-input {
