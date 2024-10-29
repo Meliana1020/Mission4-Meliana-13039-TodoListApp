@@ -198,7 +198,7 @@ logoutButton.addEventListener('click', function() {
 });
 
 
-// Tambahkan fungsi ini untuk menambah tugas ke tabel secara langsung dari localStorage
+// fungsi ini untuk menambah tugas ke tabel secara langsung dari localStorage
 function addTaskToTable(taskText, taskPriority, taskDate, isDone) {
     const taskList = isDone ? document.getElementById('done-task-list') : document.getElementById('task-list');
     const newRow = taskList.insertRow();

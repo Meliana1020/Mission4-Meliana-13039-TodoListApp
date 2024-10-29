@@ -11,21 +11,21 @@
     <link rel="stylesheet" href="../css/auth.css">
 </head>
 <body>
-    <!-- Form Login -->
+
     <div class="container">
         <h2>Login</h2>
         <p class="subtitle">Please log in to access your to-do list</p>
-        <form class="form" id="loginForm"> <!-- Tambahkan id pada form -->
+        <form class="form" id="loginForm">
             <label for="loginEmail">Email</label>
             <input type="text" id="loginEmail" name="loginEmail" placeholder="Enter your email" required />
   
             <label for="loginPassword">Password</label>
             <input type="password" id="loginPassword" name="loginPassword" placeholder="Enter your password" required />
   
-            <button type="submit" class="btn" id="login-btn">Login</button> <!-- Hapus anchor dari tombol -->
+            <button type="submit" class="btn" id="login-btn">Login</button>
             <p class="link">Don’t have an account? <a href="../index.html" id="show-register"> Register here</a></p>
         </form>
-        <div id="errorMessage" style="color: red;"></div> <!-- Tempat untuk menampilkan pesan error -->
+        <div id="errorMessage" style="color: red;"></div>
     </div>
   
     <script src="../js/login.js"></script>

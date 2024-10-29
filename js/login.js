@@ -23,7 +23,7 @@ loginForm.addEventListener('submit', function(event) {
     if (matchedUser.password === password) {
         alert('Berhasil login!');
         localStorage.setItem('isLoggedIn', JSON.stringify(matchedUser)); // Menyimpan data user yang login saat ini
-        window.location.href = 'todolist.html'; // Arahkan ke halaman to-do list
+        window.location.href = 'todolist.html'; 
     } else {
         errorMessage.textContent = 'Password salah!';
     }
