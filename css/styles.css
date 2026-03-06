@@ -84,6 +84,15 @@ header {
     box-sizing: border-box;
 }
 
+.task-input input[type="time"] {
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% / 6 - 10px); /* Disesuaikan supaya muat */
+    min-width: 80px;
+    box-sizing: border-box;
+}
+
 .task-input select,
 .task-input input[type="date"],
 .task-input button {
