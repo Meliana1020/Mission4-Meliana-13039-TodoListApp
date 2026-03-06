@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -30,9 +30,20 @@
           <option value="Medium">Medium</option>
           <option value="High">High</option>
         </select>
-        <input type="date" id="task-date" />
-        <input type="time" id="task-start-time" title="Start Time"/>
-        <input type="time" id="task-end-time" title="End Time"/>
+        <div class="input-group">
+          <label>Date</label>
+          <input type="date" id="task-date" />
+        </div>
+
+        <div class="input-group">
+          <label>Start</label>
+          <input type="time" id="task-start-time" />
+        </div>
+
+        <div class="input-group">
+          <label>End</label>
+          <input type="time" id="task-end-time" />
+        </div>
         <button id="add-task">Add</button>
       </div>
       <table>
@@ -70,9 +81,7 @@
               <th>Date</th>
             </tr>
           </thead>
-          <tbody>
-            
-          </tbody>
+          <tbody></tbody>
         </table>
       </div>
 
